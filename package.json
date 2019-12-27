@@ -11,8 +11,7 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
-    "start": "webpack-dev-server --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",   
     "format": "prettier --write \"src/**/*.js\"",
     "eslint-fix": "eslint --fix \"src/**/*.js\"",
     "build": "webpack --mode production",
